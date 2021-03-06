@@ -2,6 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Fueling;
+use App\Models\GasStation;
+use App\Models\User;
+use App\Models\Vehicle;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +17,21 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        GasStation::factory()
+            ->count(15)
+            ->create();
+
+        User::factory()
+            ->count(15)
+            ->has(Vehicle::factory()
+                ->count(5)
+                ->has(Fueling::factory()
+                    ->count(30)
+                    ->state([
+                        'gas_station_id' => rand(1, 15)
+                    ])
+                )
+            )
+            ->create();
     }
 }

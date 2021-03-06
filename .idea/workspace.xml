@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6ced7a2e-5bbc-4f36-87dc-57d19f177004" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -39,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615019316781</updated>
-      <workItem from="1615019317829" duration="3678000" />
+      <workItem from="1615019317829" duration="7373000" />
     </task>
     <servers />
   </component>
@@ -49,18 +67,33 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="428" y="-782" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615024410128">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="428" y="-782" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1615024410128" />
     <state x="740" y="-799" key="FileChooserDialogImpl" timestamp="1615019451077">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="740" y="-799" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1615019451077" />
-    <state x="461" y="-895" key="SettingsEditor" timestamp="1615022963034">
+    <state x="461" y="-895" key="SettingsEditor" timestamp="1615023636894">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="461" y="-895" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1615022963034" />
-    <state x="361" y="-840" width="672" height="678" key="search.everywhere.popup" timestamp="1615022965838">
+    <state x="461" y="-895" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1615023636894" />
+    <state x="361" y="-840" width="672" height="678" key="search.everywhere.popup" timestamp="1615026595729">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="361" y="-840" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1615022965838" />
+    <state x="361" y="-840" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1615026595729" />
   </component>
 </project>
